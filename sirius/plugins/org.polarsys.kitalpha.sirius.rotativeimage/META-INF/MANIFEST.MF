@@ -15,9 +15,7 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.sirius.diagram,
  org.eclipse.sirius.diagram.ui,
  org.eclipse.osgi,
- org.apache.batik.dom,
- org.apache.batik.bridge,
- org.apache.batik.transcoder
+ org.apache.batik.transcoder;bundle-version="1.19.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Eclipse-LazyStart: true
 Export-Package: org.polarsys.kitalpha.sirius.rotativeimage,
