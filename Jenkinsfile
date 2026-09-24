@@ -17,7 +17,7 @@ pipeline {
 	stages {
 		stage('Generate Target Platform') {
 			steps {
-		        sh 'mvn verify -P targetPlatform'
+		        sh 'mvn verify -f releng/plugins/org.polarsys.kitalpha.releng.targets/pom.xml'
 			}
 		}
 		stage('Package & Install Kitalpha') {
